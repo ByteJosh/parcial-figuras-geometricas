@@ -10,8 +10,8 @@ mismo tipo, desplazar, escalar y rechazar dimensiones no válidas.
 
 | Integrante | GitHub | Responsabilidad |
 |---|---|---|
-| [Josue Castaño] | [@ByteJosh] | Diagrama de clases, `Figura`, `Punto`, `DimensionInvalidaException`, `Circulo` |
-| [Daniel Cataño] | [@DanielJ1332] | `Triangulo`, `Cuadrilatero`, `PentagonoRegular`, `Main` y documentación |
+| [Josue Castaño] | [@ByteJosh] |`Figura`, `Punto`, `DimensionInvalidaException`, `Circulo` |
+| [Daniel Cataño] | [@DanielJ1332] | `Triangulo`, `Cuadrilatero`, `PentagonoRegular`, `Main` |
 
 ## Requisitos
 
