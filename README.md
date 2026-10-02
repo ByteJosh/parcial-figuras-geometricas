@@ -1,6 +1,6 @@
 # Parcial: Figuras Geométricas
 
-![Compilar](https://github.com/ByteJosh/parcial-figuras-geometricas/actions/workflows/compilar.yml/badge.svg)
+<img width="554" height="554" alt="image" src="https://github.com/user-attachments/assets/24b4df4f-f8f9-4c59-9ab0-60e8c5cd23a5" />
 
 Programa en Java para manejar círculos, triángulos, cuadriláteros y pentágonos
 regulares. Permite calcular área y perímetro, dimensionar, comparar figuras del
