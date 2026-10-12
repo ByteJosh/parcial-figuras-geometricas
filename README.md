@@ -26,7 +26,7 @@ mismo tipo, desplazar, escalar y rechazar dimensiones no válidas.
    `https://github.com/ByteJosh/parcial-figuras-geometricas.git`
 2. Configurar el JDK: **File → Project Structure → Project → SDK** (17 o superior).
 3. Marcar `src` como Sources Root: clic derecho en `src` → **Mark Directory as → Sources Root**.
-4. Abrir `src/app/Main.java` y pulsar el triángulo verde junto a `main`.
+4. Abrir `src/app/Main.java` y pulsar el triángulo verde junto a `Main`.
 
 ### Desde la terminal
 ```bash
@@ -111,6 +111,6 @@ develop   integración
 feature/* una rama por integrante
 ```
 
-Los cambios llegan a `develop` y `main` solo mediante Pull Request con revisión
+Los cambios llegan a `develop` y `Main` solo mediante Pull Request con revisión
 del otro integrante. Convención de commits: `feat:`, `fix:`, `docs:`,
 `refactor:`, `test:`, `chore:`.
