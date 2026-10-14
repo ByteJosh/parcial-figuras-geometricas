@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="app.CrearFiguraDialog">
+  <grid id="f5abf" binding="rootPanel" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="16" left="16" bottom="16" right="16"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="ca945" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Crear figura"/>
+          <font size="20" style="1"/>
+        </properties>
+      </component>
+      <grid id="2c65c" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="6" left="10" bottom="8" right="10"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="etched" title="Tipo"/>
+        <children>
+          <component id="65ecf" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Tipo de figura:"/>
+            </properties>
+          </component>
+          <component id="4733a" binding="comboTipo" class="javax.swing.JComboBox">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="200" height="-1"/></grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="1c4d4" binding="panelDatos" layout-manager="CardLayout" hgap="0" vgap="0">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="etched" title="Datos de la figura"/>
+        <children>
+          <grid id="6eb4d" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="8" left="10" bottom="8" right="10"/>
+            <constraints>
+              <card name="CIRCULO"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="92073" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Centro X"/>
+                </properties>
+              </component>
+              <component id="64aba" binding="txtCirX" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="110" height="-1"/></grid>
+                </constraints>
+                <properties>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="b2110" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Centro Y"/>
+                </properties>
+              </component>
+              <component id="6ba11" binding="txtCirY" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="110" height="-1"/></grid>
+                </constraints>
+                <properties>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="61c97" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Radio"/>
+                </properties>
+              </component>
+              <component id="96b7f" binding="txtCirRadio" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="110" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <vspacer id="6ac11">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="56e5d" layout-manager="GridLayoutManager" row-count="5" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="8" left="10" bottom="8" right="10"/>
+            <constraints>
+              <card name="TRIANGULO"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="dbf44" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="X"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="36ff3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Y"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="ff24a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Vértice A"/>
+                </properties>
+              </component>
+              <component id="9b9af" binding="txtTriAx" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="7fa53" binding="txtTriAy" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="df6de" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Vértice B"/>
+                </properties>
+              </component>
+              <component id="5f7ef" binding="txtTriBx" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="f4ec6" binding="txtTriBy" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="8161a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Vértice C"/>
+                </properties>
+              </component>
+              <component id="7eb3d" binding="txtTriCx" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="55345" binding="txtTriCy" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <vspacer id="4c8b3">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="7453b" layout-manager="GridLayoutManager" row-count="6" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="8" left="10" bottom="8" right="10"/>
+            <constraints>
+              <card name="CUADRILATERO"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="1f585" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="X"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="c30d7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Y"/>
+                  <horizontalAlignment value="0"/>
+                </properties>
+              </component>
+              <component id="e72e9" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Vértice A"/>
+                </properties>
+              </component>
+              <component id="8282c" binding="txtCuaAx" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="c481e" binding="txtCuaAy" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="606f7" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Vértice B"/>
+                </properties>
+              </component>
+              <component id="b92e5" binding="txtCuaBx" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="90d47" binding="txtCuaBy" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="da0f5" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Vértice C"/>
+                </properties>
+              </component>
+              <component id="b0094" binding="txtCuaCx" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="a5680" binding="txtCuaCy" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="b0600" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Vértice D"/>
+                </properties>
+              </component>
+              <component id="7726f" binding="txtCuaDx" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="6083d" binding="txtCuaDy" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="80" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <vspacer id="d9237">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+          <grid id="fdd86" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="8" left="10" bottom="8" right="10"/>
+            <constraints>
+              <card name="PENTAGONO"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="537bc" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Centro X"/>
+                </properties>
+              </component>
+              <component id="d1938" binding="txtPenX" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="110" height="-1"/></grid>
+                </constraints>
+                <properties>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="7c06f" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Centro Y"/>
+                </properties>
+              </component>
+              <component id="a197c" binding="txtPenY" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="110" height="-1"/></grid>
+                </constraints>
+                <properties>
+                  <text value="0"/>
+                </properties>
+              </component>
+              <component id="43675" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Lado"/>
+                </properties>
+              </component>
+              <component id="230bf" binding="txtPenLado" class="javax.swing.JTextField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"><preferred-size width="110" height="-1"/></grid>
+                </constraints>
+                <properties/>
+              </component>
+              <vspacer id="c3cff">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <component id="2ee00" binding="lblEstado" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value=" "/>
+        </properties>
+      </component>
+      <grid id="ea834" layout-manager="GridLayoutManager" row-count="1" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="71bea">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="29057" binding="btnCrear" class="javax.swing.JButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"><preferred-size width="130" height="32"/></grid>
+            </constraints>
+            <properties>
+              <text value="Crear figura"/>
+            </properties>
+          </component>
+          <component id="13112" binding="btnCerrar" class="javax.swing.JButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"><preferred-size width="100" height="32"/></grid>
+            </constraints>
+            <properties>
+              <text value="Cerrar"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
